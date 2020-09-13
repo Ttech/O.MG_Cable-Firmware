@@ -328,4 +328,6 @@ if __name__=='__main__':
     print("\n\tINIT: {INIT}\n\tELF0: {ELF0}\n\tELF1: {ELF1}\n\tPAGE: {PAGE}".format(INIT=results.FILE_INIT, ELF0=results.FILE_ELF0, ELF1=results.FILE_ELF1, PAGE=results.FILE_PAGE))
 
     print("\n<<< PROCESS FINISHED, REMOVE PROGRAMMER >>>\n")
+    input("Press Enter to continue...")
     sys.exit(0)
+   
